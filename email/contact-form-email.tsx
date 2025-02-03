@@ -24,7 +24,7 @@ export default function ContactFormEmail({
 }: ContactFormEmailProps) {
   return (
     <Html>
-      <Preview>New Message from Tanay Desai</Preview>
+      <Preview>New Message from Jeet Shah</Preview>
       <Tailwind>
         <Body className="bg-gray-200 text-black">
           <Container>

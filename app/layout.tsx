@@ -11,7 +11,7 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Tanay Desai",
+  title: "Jeet Shah",
   description: "I am a full-stack developer with experience of 3+ years.",
   icons: {
     icon: "/favicon-png.png",
