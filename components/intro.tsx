@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import tanayImage from "@/public/tanayImage.png";
+import jeetImage from "@/public/jeetImage.jpeg";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -28,12 +28,12 @@ export default function Intro() {
             transition={{ type: "tween", duration: "0.2" }}
           >
             <Image
-              src={tanayImage}
+              src={jeetImage}
               width={192}
               height={192}
               quality="95"
               priority={true}
-              alt="Tanay"
+              alt="Jeet"
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
@@ -69,7 +69,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/TanayResume.pdf"
+          href="/JeetResume.pdf"
           className="group bg-white text-gray-950 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-100 transition cursor-pointer borderBlack dark:text-white/60 dark:bg-white/30"
           download
         >
@@ -78,7 +78,7 @@ export default function Intro() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/tanaydesai1510/"
+          href="https://www.linkedin.com/in/jeet-shah-79672a1a3/"
           target="_blank"
           className="bg-white text-gray-950 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:text-gray-950 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:text-white/60 dark:bg-white/30"
         >
@@ -86,7 +86,7 @@ export default function Intro() {
         </a>
 
         <a
-          href="https://github.com/TanayDesai-1510"
+          href="https://github.com/Jeet2703"
           target="_blank"
           className="bg-white text-gray-950 p-4 flex items-center gap-2 text-[1.19rem] rounded-full outline-none focus:scale-[1.15] hover:text-gray-950 hover:scale-105 active:scale-105 transition cursor-pointer border-black/10 dark:text-white/60 dark:bg-white/30"
         >

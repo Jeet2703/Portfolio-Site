@@ -1,8 +1,8 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { FaVuejs } from "react-icons/fa";
-import ruScarletSelector from "@/public/ruScarletSelector.png";
-import stampProject from "@/public/stampProject.png";
+import { FaHtml5 } from "react-icons/fa";
+import project1 from "@/public/Project1.png";
+import project2 from "@/public/Project2.png";
 
 export const links = [
   {
@@ -33,45 +33,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
-    companyName: "Rutgers OIT-EAS",
+    title: "Frontend Developer",
+    companyName: "Altiss Advance Tech Private Limited - XIRCLS",
     description: [
-      "Working on the development of Rutgers University’s web portal, which is used over 70,000 students and faculty across three regional campuses.",
-      "Developing custom reusable and responsive components using React.js, which reduced development time by 30% and improving code maintainability by enabling component reuse across entire project.",
-      "Resolved bugs and identified errors, leading to 15% improvement in application performance.",
-      "Engineered dark mode features in the application increasing the user engagement by 20%.",
+      "Developed WhatsApp templates using React, Bootstrap classes, and API Integration for client communication, enabling merchants to send marketing and utility messages.",
+      "Integrated billing functionalities with multiple APIs and Razorpay for secure and efficient merchant payments.",
+      " Built a global meeting scheduler using React Props, integrated multiple APIs, and implemented email notifications that adjust for different time zones, enhancing international client coordination.",
     ],
     icon: React.createElement(FaReact),
-    date: "Feb 2024 - Present",
+    date: "June 2024 - September 2024",
   },
   {
-    title: "Front-End Developer",
-    companyName: "Skillsvista",
+    title: "Full Stack Developer",
+    companyName: "Space Agency",
     description: [
-      "Designed and developed 3+ responsive and user-friendly web application components using Vue.js for over 2000+ monthly users.",
-      "Leveraged Vuex for robust state management, enhancing data flow and maintaining application stability.",
-      "Identified 5+ critical bugs within the website, leading to a reduction in 15% reduction in support tickets.",
-      "Implemented UI/UX improvements which boosted the user engagement by 20%.",
+      "Tasked with working on the Estimation Ring Project, a B2B platform; built and integrated APIs that estimated ring prices based on various parameters.",
+      "Connected the backend to a MongoDB database using Express.js; stored ring parameters and ensured seamless data flow between the backend and database.",
     ],
-    icon: React.createElement(FaVuejs),
-    date: "July 2022 - Aug 2022",
+    icon: React.createElement(FaReact),
+    date: "January 2024 - March 2024",
+  },
+  {
+    title: "Frontend Developer",
+    companyName: "Archer Print Innovations",
+    description: [
+      "I designed a responsive user interface using HTML, CSS, and Bootstrap4.",
+      "This UI allowed users to add products to their cart and customize them based on their preferences.",
+      "I also used JavaScript to manage product details.",
+    ],
+    icon: React.createElement(FaHtml5),
+    date: "July 2021 - August 2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "STAMP",
+    title: "OptiFlow",
     description:
-      "STAMP is a drone-based software designed for advanced surveillance systems, providing comprehensive monitoring and enhanced security capabilities.",
-    tags: ["React.js", "Python", "Flask", "Chakra-UI"],
-    imageUrl: stampProject,
+      "Designed an Agile project featuring task management, sprint planning, Kanban methodology, and visual analytics for efficient project execution and tracking.",
+    tags: ["React.js", "Firebase", "Chatbot"],
+    imageUrl: project1,
   },
   {
-    title: "RU-ScarletSelector",
+    title: "Gemesis",
     description:
-      "RU-ScarletSelector, a course recommender for Rutgers students, integrating past performance data to recommend optimal courses and real-time professor suggestions.",
-    tags: ["React.js", "Python", "Flask", "Material-UI"],
-    imageUrl: ruScarletSelector,
+      "Developed a MERN stack solution for diamond merchants, automating stock management, invoicing, PDF uploads, and securing software with copyright.",
+      tags: ["React.js", "Express.js", "Node.js", "MongoDB"],
+    imageUrl: project2,
   },
 ] as const;
 
@@ -79,24 +87,24 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  // "TypeScript",
   "React.js",
-  "Vue.js",
-  "Next.js",
+  // "Vue.js",
+  // "Next.js",
   "Node.js",
   "Git",
-  "Tailwind CSS",
+  // "Tailwind CSS",
   "MongoDB",
-  "Redux",
+  // "Redux",
   "Express",
-  "PostgreSQL",
+  "MySQL",
   "Postman",
   "Firebase",
   "Python",
-  "Framer Motion",
-  "C#",
+  // "Framer Motion",
+  // "C#",
   "C/C++",
   "Java",
-  "R",
-  "Figma",
+  // "R",
+  // "Figma",
 ] as const;

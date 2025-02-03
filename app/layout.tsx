@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Jeet Shah",
-  description: "I am a full-stack developer with experience of 3+ years.",
+  description: "I am a full-stack developer with experience of 6 months",
   icons: {
     icon: "/favicon-png.png",
   },

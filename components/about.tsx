@@ -19,32 +19,15 @@ export default function About() {
     >
       <SectionHeader>About me</SectionHeader>
       <p className="mb-3">
-        I'm a skilled <span className="font-bold">software developer</span> with
-        experience in <span className="font-bold">TypeScript</span> and{" "}
-        <span className="font-bold">JavaScript</span>, and expertise in
-        frameworks like <span className="font-bold">React.js</span> and{" "}
-        <span className="font-bold">Node.js</span>. I'm a{" "}
-        <span className="font-bold">quick learner</span> and collaborate closely
-        with clients to create{" "}
-        <span className="font-bold">efficient, scalable,</span> and
-        <span className="font-bold"> user-friendly</span> solutions that solve
-        real-world problems.
-      </p>
-      <p className="mb-3">
-        I'm currently pursuing a Bachelors in{" "}
-        <span className="font-bold">Computer Science</span> from{" "}
-        <span className="font-bold text-red-600">
-          Rutgers University-New Brunswick
-        </span>{" "}
-        with expected graduation in May 2027. I started my career in Computer
-        Science with a Diploma in{" "}
-        <span className="font-bold">Information Technology</span> from Shri
-        Bhagubhai Mafatlal Polytechnic, graduated in June 2023.
-      </p>
-      <p>
-        Let's <span className="font-bold">work together</span> to bring your
-        ideas to life!
-      </p>
+  I am a passionate <span className="font-bold">software and web developer</span> with a strong interest in creating impactful solutions. With over two years of experience working with the <span className="font-bold">MERN stack</span>, I have developed and delivered multiple projects, both as a <span className="font-bold">full-stack</span> and <span className="font-bold">frontend developer</span>. I pride myself on being a <span className="font-bold">quick learner</span> and have successfully collaborated on <span className="font-bold">client-based projects</span>, ensuring timely delivery of high-quality results.
+</p>
+<p className="mb-3">
+  I am currently pursuing my <span className="font-bold">Bachelor's in Technology (BTech)</span> at <span className="font-bold">Dwarkadas J Sanghvi College of Engineering</span>, with an expected graduation in <span className="font-bold">June 2025</span>. I began my career in the field by completing a <span className="font-bold">Diploma in Information Technology</span> from Shri Mafatlal Polytechnic, graduating in <span className="font-bold">July 2022</span>.
+</p>
+<p>
+  Let's <span className="font-bold">collaborate</span> and bring your ideas to life with efficient, scalable, and user-friendly solutions!
+</p>
+
     </motion.section>
   );
 }

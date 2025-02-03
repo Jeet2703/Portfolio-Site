@@ -25,9 +25,9 @@ export default function Contact() {
         Please contact me directly at{" "}
         <a
           className="underline"
-          href="mailto:tanay.rutgers@scarletmail.rutgers.edu"
+          href="mailto:shahjeet64@gmail.com"
         >
-          tnd38@scarletmail.rutgers.edu
+          shahjeet64@gmail.com
         </a>{" "}
         or through this form.
       </p>
